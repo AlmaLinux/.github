@@ -1,6 +1,6 @@
 name: Report a vulnerability
 description: File a bug/issue in this part of the project
-title: "[BUG] <title>"
+title: "[Security flaw]: <title>"
 labels: ["bug", "vulnerability", "needs-triage"]
 body:
   - type: markdown

@@ -1,6 +1,6 @@
 name: 🛠️ Feature Request
 description: Suggest an idea to improve something
-title: "[Feature]: "
+title: "[Feature]: <title>"
 labels: ["enhancement", "needs-triage"]
 body:
   - type: checkboxes
