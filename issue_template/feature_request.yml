@@ -16,7 +16,7 @@ body:
       description: 
         A clear and concise description of the problem you have encountered to be solved.
       value: |
-        <!--- Describe your feature here --->
+        <!--- Describe your problem here --->
     validations:
       required: true
   - type: textarea
