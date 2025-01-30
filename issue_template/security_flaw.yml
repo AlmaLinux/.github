@@ -1,0 +1,19 @@
+name: Report a vulnerability
+description: File a bug/issue in this part of the project
+title: "[Security flaw]: <title>"
+labels: ["bug", "vulnerability", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+		Security vulnerability reporting information for the AlmaLinux OS project is available on the AlmaLinux website. https://almalinux.org/p/vulnerability-disclosure-policy/
+		
+		Please follow the criteria below to ensure your report reaches the correct team.
+		
+		If you are not sure, please reach out to our security team for assistance. Please report vulnerabilities that require coordinated disclosure responsibly, no matter in which part of the project they are found. 
+		Contact: security@almalinux.org
+
+		If the flaw is in the operating system and but does not require coordinated disclosure, it may be reported in our bug tracker: 
+		Contact: https://bugs.almalinux.org
+
+		For any other flaws, please report them in the repository that is associated with the part of the project in question.
