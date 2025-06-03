@@ -35,7 +35,7 @@ body:
     description: As an all-volunteer organization, we are always looking for new contributors. Is this request something you are willing to contribute yourself?
     options:
       - label: I am willing to take on this work, once the community has had a chance to provide feedback. 
-	  - label: I am willing to do the work, but will need a mentor or guide.
+      - label: I am willing to do the work, but will need a mentor or guide.
       - label: I cannot perform this work at this time. 
   - type: input
     attributes:
