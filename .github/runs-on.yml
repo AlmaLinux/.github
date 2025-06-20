@@ -1,0 +1,85 @@
+runners:
+  default:
+    cpu: 8
+    disk: default
+    family: ["c7i", "c7a", "c8g"]
+    spot: capacity-optimized
+  cpu-16:
+    cpu: 16
+    disk: default
+    family: ["c7i", "c7a", "c8g"]
+    spot: capacity-optimized
+  cpu-32:
+    cpu: 32
+    disk: default
+    family: ["c7i", "c7a", "c8g"]
+    spot: capacity-optimized
+  cpu-64:
+    cpu: 64
+    disk: default
+    family: ["c7i", "c7a", "c8g"]
+    spot: capacity-optimized
+  memory-32:
+    ram: 64
+    disk: default
+    family: ["r7i", "r7a", "r8g"]
+    spot: capacity-optimized
+  memory-64:
+    ram: 64
+    disk: default
+    family: ["r7i", "r7a", "r8g"]
+    spot: capacity-optimized
+  memory-128:
+    ram: 128
+    disk: default
+    family: ["r7i", "r7a", "r8g"]
+    spot: capacity-optimized
+
+images:
+  almalinux-10-x86_64:
+    platform: "linux"
+    arch: "x64"
+    owner: "764336703387" # Official AlmaLinux owner
+    name: "AlmaLinux OS 10 * x86_64"
+    preinstall: |
+      dnf install jq libicu tar wget /usr/bin/shasum -y
+
+  almalinux-10-aarch64:
+    platform: "linux"
+    arch: "arm64"
+    owner: "764336703387" # Official AlmaLinux owner
+    name: "AlmaLinux OS 10 * aarch64"
+    preinstall: |
+      dnf install jq libicu tar wget /usr/bin/shasum -y
+
+  almalinux-9-x86_64:
+    platform: "linux"
+    arch: "x64"
+    owner: "764336703387" # Official AlmaLinux owner
+    name: "AlmaLinux OS 9 * x86_64"
+    preinstall: |
+      dnf install jq libicu tar wget /usr/bin/shasum -y
+
+  almalinux-9-aarch64:
+    platform: "linux"
+    arch: "arm64"
+    owner: "764336703387" # Official AlmaLinux owner
+    name: "AlmaLinux OS 9 * aarch64"
+    preinstall: |
+      dnf install jq libicu tar wget /usr/bin/shasum -y
+
+  almalinux-8-x86_64:
+    platform: "linux"
+    arch: "x64"
+    owner: "764336703387" # Official AlmaLinux owner
+    name: "AlmaLinux OS 8 * x86_64"
+    preinstall: |
+      dnf install jq libicu tar wget /usr/bin/shasum -y
+
+  almalinux-8-aarch64:
+    platform: "linux"
+    arch: "arm64"
+    owner: "764336703387" # Official AlmaLinux owner
+    name: "AlmaLinux OS 8 * aarch64"
+    preinstall: |
+      dnf install jq libicu tar wget /usr/bin/shasum -y
