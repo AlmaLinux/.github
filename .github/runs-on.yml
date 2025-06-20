@@ -83,3 +83,8 @@ images:
     name: "AlmaLinux OS 8 * aarch64"
     preinstall: |
       dnf install jq libicu tar wget /usr/bin/shasum -y
+
+admins:
+  - andrewlukoshko
+  - codyro
+  - jonathanspw
