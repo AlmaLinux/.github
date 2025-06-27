@@ -36,7 +36,7 @@ runners:
     spot: capacity-optimized
 
 images:
-  almalinux-kitten-10-x86_64:
+  almalinux-10-kitten-x86_64:
     platform: "linux"
     arch: "x64"
     owner: "764336703387" # Official AlmaLinux owner
@@ -44,7 +44,7 @@ images:
     preinstall: |
       dnf install jq libicu tar wget /usr/bin/shasum -y
 
-  almalinux-kitten-10-aarch64:
+  almalinux-10-kitten-aarch64:
     platform: "linux"
     arch: "arm64"
     owner: "764336703387" # Official AlmaLinux owner
